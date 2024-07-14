@@ -22,7 +22,7 @@ These snippets cover conditional statements, list operations, and basic string m
 The Python code defines a Cat class that models a cat with attributes name and age. It includes methods meow() and purr() to make the cat meow and purr respectively. An instance my_cat of the Cat class is created with the name "Tiger Tom" and age 5, followed by invoking the meow() method on my_cat, causing it to print "Tiger Tom is meowing!"
 
 ## cat_and_dog_file_reader.py
-The Python code uses the os module to change the current working directory to "Desktop/python_work". It then attempts to open and read two files, "cats.txt" and "dogs.txt". If successful, it prints the contents of each file line by line after stripping any extra whitespace. If either file is not found (FileNotFoundError), it prints "Sorry. It appears a file is missing!"
+The Python code uses the os module to change the current working directory. It then attempts to open and read two files, "cats.txt" and "dogs.txt". If successful, it prints the contents of each file line by line after stripping any extra whitespace. If either file is not found (FileNotFoundError), it prints "Sorry. It appears a file is missing!"
 
 ## city_functions.py
 The city_country function formats and returns a string representing a city and its associated country. It takes in city_name and country_name as required arguments, and an optional population argument which defaults to an empty string. If population is provided (not empty), the function includes it in the formatted string; otherwise, it omits population details. The returned string is capitalized using .title() to ensure consistent formatting.
@@ -45,14 +45,10 @@ The Python code reads a favorite number stored in a JSON file named "favourite_n
 This script manages a user's favorite number using JSON. It first tries to open a file (favourite_number.json) to retrieve and print the stored favorite number. If the file doesn't exist or isn't readable (FileNotFoundError), it prompts the user to input their favorite number. The script then writes this number to the file in JSON format for future reference and confirms to the user that their favorite number has been saved.
 
 ## guest_book.py
-The Python code snippet demonstrates a simple guest book application. Here's a concise description suitable for a README file:
-
-This script maintains a guest book where users can add their names upon visiting. It first sets the working directory to "Desktop/python_work" using the os module. If the guest book file "guest_book.txt" doesn't exist, it creates it and initializes it with a header "---Guestbook---". The user is prompted to enter their name, which is then appended to the guest book file along with a message indicating their visit.
-
-This script is useful for keeping track of visitors or interactions in a straightforward text-based format.
+This Python code demonstrates a simple guest book application. It maintains a guest book where users can add their names upon visiting. It first sets the working directory using the os module. If the guest book file "guest_book.txt" doesn't exist, it creates it and initializes it with a header "---Guestbook---". The user is prompted to enter their name, which is then appended to the guest book file along with a message indicating their visit. This script is useful for keeping track of visitors or interactions in a straightforward text-based format.
 
 ## guest_book_generator.py
-This script manages a guest book stored in a file named "guest_book.txt" located in the directory "Desktop/python_work". It initializes the file if it doesn't exist, prompting users to enter their name and recording it in the guest book. It handles potential IOError exceptions that may arise during file operations, ensuring robustness when writing visitor entries.
+This script manages a guest book stored in a file named "guest_book.txt". It initializes the file if it doesn't exist, prompting users to enter their name and recording it in the guest book. It handles potential IOError exceptions that may arise during file operations, ensuring robustness when writing visitor entries.
 
 This guest book application is designed to track and acknowledge visits with simplicity and reliability, suitable for basic interaction logging in a specified directory on your system.
 
