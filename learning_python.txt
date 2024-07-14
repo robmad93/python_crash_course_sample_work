@@ -1,0 +1,3 @@
+I love Python. 
+Python is a simple language.
+After Python, I want to learn Javascript.
